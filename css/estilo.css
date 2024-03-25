@@ -1,0 +1,146 @@
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/capa.png),
+        url(../imagens/ruido.png),
+        linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#home h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#conteudo h2,
+#celular h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #7C24F8;
+    padding-bottom: 10px;
+}
+
+#conteudo h3,
+#celular h3 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #7C24F8;
+}
+
+#celular h3 {
+    color: #9AF0E1;
+}
+
+#celular p {
+    color: white;
+}
+
+#celular .rotacionar {
+    rotate: 30deg;
+    padding-left: 80px;
+}
+
+#button-roxo {
+    background-color: #7C24F8;
+}
+
+#button-roxo:hover {
+    background-color: #6517d2;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+button.navbar-toggler {
+    border: 1px solid transparent;
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+@media (max-width: 575.98px) {
+    #home h1 {
+        font-size: 3em;
+    }
+
+    #home .btn {
+        margin: 10px 10px;
+    }
+
+    #celular img {
+        display: block;
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1 {
+        font-size: 3em;
+    }
+
+    #home .btn {
+        margin: 10px 10px;
+    }
+
+    #celular img {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #home h1 {
+        font-size: 4em;
+    }
+
+    #celular img {
+        width: 200px;
+        margin-top: 80px;
+        margin-right: 15px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #home h1 {
+        font-size: 5em;
+    }
+
+    #celular img {
+        width: 260px;
+        margin-right: 15px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #home h1 {
+        font-size: 6em;
+    }
+
+    #celular img {
+        width: 300px;
+        padding: 0;
+    }
+}
